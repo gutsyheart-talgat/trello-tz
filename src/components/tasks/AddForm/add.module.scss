@@ -1,0 +1,72 @@
+.add{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form{
+        width: 500px;
+        
+        background: white;
+        padding: 15px;
+        border-radius: 4px;
+        text-align: center;
+        label{
+            .pass{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 250%;
+                text-transform: uppercase;
+                color: #000000;
+            }
+            input{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 250%;
+                text-transform: uppercase;
+                color: #000000;
+                width: 100%;
+            }
+            .priorityDiv{
+                display: flex;
+                grid-gap: 20px;
+                justify-content: center;
+                p{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 250%;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                .priority{
+                    width: 20px;
+                    
+                }
+            }
+            
+        }
+        .addBtn{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 250%;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                background: #70B500;
+                padding: 5px;
+                border: none;
+                border-radius: 4px;
+                margin-top: 50px;
+        }
+    }
+}

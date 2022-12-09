@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.FormCont{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Form{
+        width: 500px;
+        
+        background: white;
+        padding: 15px;
+        border-radius: 4px;
+        .head{
+            display: flex;
+            justify-content: space-between;
+            h3{
+                margin: 0;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 250%;
+                text-transform: uppercase;
+                color: #000000;
+            }
+            button{
+                background: none;
+                border: none;
+                cursor: pointer;
+                img{
+                    color: #000000;
+                }
+            }
+        }
+        .inform{
+            label{
+                .pass{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 250%;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                .content{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 250%;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                .low{
+                    background: #46F7B7;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #096343;
+                    margin: 0;
+                    padding: 2px;
+                    width: fit-content;
+                    margin-bottom: 12px;
+                }
+                .medium{
+                    background: #F5EB88;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #653408;
+                    margin: 0;
+                    padding: 2px;
+                    width: fit-content;
+                    margin-bottom: 12px;
+                }
+                .high{
+                    background: #F27F77;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #622808;
+                    margin: 0;
+                    padding: 2px;
+                    width: fit-content;
+                    margin-bottom: 12px;
+                }
+            }
+            
+        }
+    }
+}
